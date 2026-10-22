@@ -1,0 +1,63 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-10-13T08:03:12Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "name": "an-mcxa366-nikon-aformat-interface-using-flexio",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/88d35077-f1c2-456b-8993-e0ffdae414e6",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-88d35077-f1c2-456b-8993-e0ffdae414e6",
+      "name": "an-mcxa366-nikon-aformat-interface-using-flexio",
+      "versionInfo": "1.0",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "https://github.com/nxp-appcodehub/an-mcxa366-nikon-aformat-interface-using-flexio",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-88d35077-f1c2-456b-8993-e0ffdae414e6---1ffe6406-89b4-415b-9902-0d6549960424",
+      "name": "ARM-software/CMSIS_6",
+      "versionInfo": "v6.1.0",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: arm-software",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "49c34cad-5a80-43be-b670-1679d1d1f637",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/arm-software/cmsis_6@v6.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-88d35077-f1c2-456b-8993-e0ffdae414e6"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-88d35077-f1c2-456b-8993-e0ffdae414e6",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-88d35077-f1c2-456b-8993-e0ffdae414e6---1ffe6406-89b4-415b-9902-0d6549960424"
+    }
+  ]
+}
